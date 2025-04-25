@@ -1,0 +1,128 @@
+strace: Process 5972 attached
+Training...
+Training phase 1: reading and parsing passwords...
+Lines processed: 10000
+Lines processed: 20000
+Lines processed: 30000
+Lines processed: 40000
+Lines processed: 50000
+Lines processed: 60000
+Lines processed: 70000
+Lines processed: 80000
+Lines processed: 90000
+Lines processed: 100000
+Lines processed: 110000
+Lines processed: 120000
+Lines processed: 130000
+Lines processed: 140000
+Lines processed: 150000
+Lines processed: 160000
+Lines processed: 170000
+Lines processed: 180000
+Lines processed: 190000
+Lines processed: 200000
+Lines processed: 210000
+Lines processed: 220000
+Lines processed: 230000
+Lines processed: 240000
+Lines processed: 250000
+Lines processed: 260000
+Lines processed: 270000
+Lines processed: 280000
+Lines processed: 290000
+Lines processed: 300000
+Lines processed: 310000
+Lines processed: 320000
+Lines processed: 330000
+Lines processed: 340000
+Lines processed: 350000
+Lines processed: 360000
+Lines processed: 370000
+Lines processed: 380000
+Lines processed: 390000
+Lines processed: 400000
+Lines processed: 410000
+Lines processed: 420000
+Lines processed: 430000
+Lines processed: 440000
+Lines processed: 450000
+Lines processed: 460000
+Lines processed: 470000
+Lines processed: 480000
+Lines processed: 490000
+Lines processed: 500000
+Lines processed: 510000
+Lines processed: 520000
+Lines processed: 530000
+Lines processed: 540000
+Lines processed: 550000
+Lines processed: 560000
+Lines processed: 570000
+Lines processed: 580000
+Lines processed: 590000
+Lines processed: 600000
+Lines processed: 610000
+Lines processed: 620000
+Lines processed: 630000
+Lines processed: 640000
+Lines processed: 650000
+Lines processed: 660000
+Lines processed: 670000
+Lines processed: 680000
+Lines processed: 690000
+Lines processed: 700000
+Lines processed: 710000
+Lines processed: 720000
+Lines processed: 730000
+Lines processed: 740000
+Lines processed: 750000
+Lines processed: 760000
+Lines processed: 770000
+Lines processed: 780000
+Lines processed: 790000
+Lines processed: 800000
+Lines processed: 810000
+Lines processed: 820000
+Lines processed: 830000
+Lines processed: 840000
+strace: Process 5971 detached
+strace: Process 5972 detached
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 67.20    0.035025        2694        13           clock_nanosleep
+ 21.38    0.011142          10      1032           read
+  3.79    0.001975          98        20           futex
+  2.19    0.001139          19        57        49 readlink
+  1.60    0.000836          13        63           rt_sigaction
+  1.36    0.000711           2       308           mmap
+  0.68    0.000354          15        23         8 openat
+  0.53    0.000274          16        17        12 access
+  0.45    0.000237          11        20           mprotect
+  0.26    0.000133          16         8           statx
+  0.18    0.000092           6        15         1 close
+  0.17    0.000087           1        86           write
+  0.06    0.000033           4         8           brk
+  0.06    0.000033          16         2           getcwd
+  0.04    0.000020           5         4           getrandom
+  0.03    0.000017           8         2           gettid
+  0.03    0.000014           4         3           prlimit64
+  0.00    0.000000           0         8           fstat
+  0.00    0.000000           0         2           lseek
+  0.00    0.000000           0         3           munmap
+  0.00    0.000000           0         7           rt_sigprocmask
+  0.00    0.000000           0         8           pread64
+  0.00    0.000000           0         1           madvise
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         1           uname
+  0.00    0.000000           0         1           sysinfo
+  0.00    0.000000           0         1           getuid
+  0.00    0.000000           0         1           getgid
+  0.00    0.000000           0         2           geteuid
+  0.00    0.000000           0         2           getegid
+  0.00    0.000000           0         1           arch_prctl
+  0.00    0.000000           0         1           set_tid_address
+  0.00    0.000000           0         2           set_robust_list
+  0.00    0.000000           0         2           rseq
+  0.00    0.000000           0         1           clone3
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.052122          30      1726        70 total
